@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mercedes-Emblem-Auto-Car-Mercedes-benz-Benz-1744915.jpg/800px-Mercedes-Emblem-Auto-Car-Mercedes-benz-Benz-1744915.jpg?20190324021547)
+
+    
+}
+img {
+    font-size: 24px;
+    margin: 0;
+}
+h1 {
+    color: rgb(0, 0, 0);
+  margin-top: 150px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
